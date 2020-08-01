@@ -26,7 +26,7 @@ A aplicação construída trata-se de um sistema de gerenciamento de receitas, o
 
 5 - Inicie a aplicação
 
-`npm start`
+`node index.js`
 
 # Requisitos Obedecidos
 
