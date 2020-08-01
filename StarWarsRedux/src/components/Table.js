@@ -160,8 +160,7 @@ class Table extends Component {
     } = this.props;
     return (
       <div>
-        <h1>Star Wars Data Table Filters</h1>
-        <div>Search a planet by text:</div>
+        <h1>Star Wars - A New Saga begins!</h1>
         <input onChange={this.onChangeHandler} />
         <Dropdowns />
         {data === null ? null : this.changeOrder(data)}
