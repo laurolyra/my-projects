@@ -1,4 +1,4 @@
-# Repositório do projeto Star Wars DataTable Filters!
+# Projeto Star Wars DataTable Filters (com hooks, context API e testes)!
 
 Este projeto foi feito para avaliação de meus conhecimentos sobre _react/hooks_ e gerenciamento de estado via _context API_ no curso de _Software Development_ ofertado pela Trybe.
 
