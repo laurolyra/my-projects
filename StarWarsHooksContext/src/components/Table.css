@@ -1,0 +1,25 @@
+h1 {
+  color: yellow;
+}
+
+.tableData , .tableHeader {
+  border: 1px solid yellow;
+  box-sizing: border-box;
+  color: white;
+  font-size: 12px;
+  padding: 0 2px;
+  word-wrap: break-word;
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.filters {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
