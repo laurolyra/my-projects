@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookmaster - Cadastro de Usuário</title>
+  </head>
+  <body>
+    <header>
+      <%- include("../header.ejs") %>
+    </header>
+    <h1>Cookmaster - Cadastro de Usuário</h1>
+    <% if (message) {%>
+    <div class="message">
+      <%= message %>
+    </div>
+    <% } %>
+
+    <div style="margin-top: 10px">
+      <form action="/signup" method="POST">
+        <label for="emailInput">Email: </label>
+        <input type="text" name="email" id="emailInput" /><br />
+        <label for="passwordInput">Senha: </label>
+        <input type="password" name="password" id="passwordInput" /><br />
+        <label for="firstNameInput">Primeiro Nome: </label>
+        <input type="text" name="firstName" id="firstNameInput" /><br />
+        <label for="lastNameInput">Último Nome: </label>
+        <input type="text" name="lastName" id="lastNameInput" /><br />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+    <button onclick="window.location.pathname='/'">Ir para Home</button>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minhas receitas</title>
+  </head>
+  <body>
+    <header>
+      <%- include("../header.ejs") %>
+    </header>
+    <% recipes && recipes.forEach((recipe) => { %>
+      <li><%= recipe.recipeName %></li>
+      <a href=/recipes/<%= `${recipe.recipeId}` %>>Detalhes</a>
+    <% }) %>
+      <form action="/recipes/new" method="GET">
+      <button type="submit">Nova receita</button>
+      </form>
+  </body>
+</html>
+  

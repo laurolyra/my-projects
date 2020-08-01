@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookmaster - Admin</title>
+  </head>
+
+  <body>
+    <header>
+      <%- include("../header.ejs") %>
+    </header>
+    <h1>Painel Administrativo Cookmaster</h1>
+    <p>Usuário atual: <%= `${user.firstName} ${user.lastName}` %></p>
+    <pre><%= JSON.stringify(user, null, 4) %></pre>
+    <button onclick="window.location.pathname='/logout'">Logout</button>
+  </body>
+</html>

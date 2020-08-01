@@ -4,9 +4,9 @@ Este projeto foi feito para avaliação de meus conhecimentos sobre _NodeJS_ no 
 
 ## O que foi desenvolvido:
 
-Desenvolvi uma API utilizando a arquitetura MSC (Model-Service-Controller)
+Desenvolvi uma API utilizando a arquitetura MSC (Model-Service-Controller).
 
-A API construída trata-se de um sistema de gerenciamento de vendas, onde será possível criar, visualizar, deletar e atualizar produtos e vendas.
+A API construída trata-se de um sistema de gerenciamento de vendas, onde é possível criar, visualizar, deletar e atualizar produtos e vendas.
 
 ## Instruções para execução
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookmaster - Home</title>
+  </head>
+  <body>
+    <header>
+      <%- include("../header.ejs") %>
+    </header>
+    <h1>Detalhes da receita</h1>
+    <h2><%= recipe.recipeName %></h2>
+    <h3>Ingredientes: <%= recipe.ingredients %></h3>
+    <h3>Modo de preparo: <%= recipe.howToPrepare %></h3>
+    <br>
+    <% if (loggedIn && loggedIn.id === recipe.authorId) { %>
+      <form action=<%=`/recipes/${recipe.id}/edit`%> method="GET">
+      <button type="submit">Editar Receita</button>
+      </form>
+      <form action=<%=`/recipes/${recipe.id}/delete`%> method="DELETE">
+      <button type="submit">Excluir Receita</button>
+      </form>
+      <% } %> 
+  </body>
+</html>

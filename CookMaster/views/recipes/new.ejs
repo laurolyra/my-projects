@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookmaster - Nova Receita</title>
+</head>
+
+<body>
+  <header>
+    <%- include("../header.ejs") %>
+  </header>
+  <h1>Cookmaster - Nova Receita</h1>
+
+    <% if (message) {%>
+    <div class="message">
+      <%= message %>
+    </div>
+    <% } %>
+    <div style="margin-top: 10px">
+      <form action="/recipes" method="POST">
+        <label for="nameInput">Nome: </label>
+        <input type="text" name="recipe_name" id="nameInput" /><br />
+        <label for="ingredientsInput">Ingredientes: </label>
+        <input type="text" name="ingredients" id="ingredientsInput" /><br />
+        <label for="prepareMethodInput">Modo de preparo: </label>
+        <input type="text" name="how_to_prepare" id="prepareMethodInput" /><br />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </div>
+    <button onclick="window.location.pathname='/'">Ir para Home</button>
+  <button onclick="javascript:history.back()">Voltar</button>
+
+</body>
+
+</html>
