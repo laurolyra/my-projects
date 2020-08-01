@@ -26,7 +26,7 @@ Criei um projeto em React utilizando Redux para controle de estado. A aplicaçã
 
 # Requisitos Obedecidos
 
-Todos os requisitos abaixo constituem regras de negócio definidas pela escola. Não me sendo autorizado alterá-las para uma outra arquitetura ou uso de outra tecnologia.
+Todos os requisitos abaixo constituem regras de negócio definidas pela escola, as quais não pude alterá-las para uma outra arquitetura ou uso de outra tecnologia.
 
 ## 1 - Fazer uma requisição para o endpoint `/planets` da API de Star Wars e preencher uma tabela com os dados retornados, com exceção dos da coluna `residents`
 
