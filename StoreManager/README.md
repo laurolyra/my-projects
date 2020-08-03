@@ -8,7 +8,7 @@ Desenvolvi uma API utilizando a arquitetura MSC (Model-Service-Controller).
 
 A API construída trata-se de um sistema de gerenciamento de vendas, onde é possível criar, visualizar, deletar e atualizar produtos e vendas.
 
-Foi utilizado o banco MongoDB para a gestão de dados. Além disso, a API é ser RESTful.
+Foi utilizado o banco MongoDB para a gestão de dados. Além disso, a API segue os padrões REST.
 
 ## Instruções para execução
 
