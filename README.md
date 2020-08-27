@@ -1,3 +1,4 @@
+(*english version coming soon*)
 # Sobre este repositório
 
 Meu nome é Lauro Lyra Aguiar, sou estudante de desenvolvimento de software e criei o presente repositório a fim de apresentar alguns projetos por mim elaborados, os quais demonstram meu conhecimento de frontend e backend.
