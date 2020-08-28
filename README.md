@@ -8,7 +8,7 @@ Neste repositório, encontram-se alguns trabalhos realizados ao longo de meus es
 ## Projetos em frontend
 [Star Wars Datatable with redux](https://github.com/laurolyra/StarWarsReduxTable)
 
-[Star Wars Datatable with hooks+Context API (com testes no frontend)](https://github.com/laurolyra/my-projects/tree/master/StarWarsHooksContext)
+[Star Wars Datatable with hooks+Context API (com testes no frontend)](https://github.com/laurolyra/StarWarsHooksTable)
 
 ## Projetos em backend
 Com relação ao backend, trago dois projetos em `NodeJS`. Um manipula dados em um banco de dados sequenciado, com uma aplicação seguindo a arquitetura MVC enquanto o outro consiste numa API, consultando, inserindo, editando e removendo dados de um banco em MongoDB.
