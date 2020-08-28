@@ -13,9 +13,9 @@ Neste repositório, encontram-se alguns trabalhos realizados ao longo de meus es
 ## Projetos em backend
 Com relação ao backend, trago dois projetos em `NodeJS`. Um manipula dados em um banco de dados sequenciado, com uma aplicação seguindo a arquitetura MVC enquanto o outro consiste numa API, consultando, inserindo, editando e removendo dados de um banco em MongoDB.
 
-[Cookmaster](https://github.com/laurolyra/my-projects/tree/master/CookMaster)
+[Cookmaster](https://github.com/laurolyra/CookMaster)
 
-[Store manager](https://github.com/laurolyra/my-projects/tree/master/StoreManager)
+[Store manager](https://github.com/laurolyra/StoreManager)
 
 ## Contato
 Caso tenha críticas, sugestões ou comentários, favor reportar por aqui ou por contato em redes sociais, tanto via linkedIn: www.linkedin.com/in/laurolyra quanto via Twitter: www.twitter.com/laurolyra.
